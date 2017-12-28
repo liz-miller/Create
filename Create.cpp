@@ -36,6 +36,7 @@ void Create::begin(){
  * If duration is greater than zero the motors will run for that duration 
  */
 void Create::go(int speedLeft,int speedRight, int duration){
+  emableMotors();
   autoMotors(speedLeft, speedRight);
   while(duration > 0){
     delay(duration);
@@ -91,13 +92,10 @@ int Create::getIRArray(int pin){
   int IRPin;
   switch(pin){
     case 0:
-      IRPin=IR_1;
+      IRPin=LIR;
       break;
     case 1:
-      IRPin=IR_2;
-      break;
-    case 2:
-      IRPin=IR_3;
+      IRPin=RIR;
       break;
   }
 

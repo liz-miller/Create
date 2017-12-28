@@ -21,7 +21,7 @@
 #define INR2 6
 
 // infrared sensors
-#define LI1 A1
+#define LIR A1
 #define RIR A2
 
 //digital pins
