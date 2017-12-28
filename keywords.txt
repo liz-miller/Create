@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Create	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+go		KEYWORD2
+stop	KEYWORD2
+getAnalog KEYWORD2
+getDigital KEYWORD2
+writeAnalog KEYWORD2
+writeDigital KEYWORD2
+getIRArray KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ENL 	LITERAL1
+INL1 	LITERAL1
+INL2	LITERAL1
+ENR		LITERAL1
+INR1	LITERAL1
+INR2	LITERAL1
+LIR     LITERAL1
+RIR		LITERAL1
+DP0		LITERAL1
+DP1		LITERAL1
+DP2		LITERAL1
+DP3		LITERAL1
+DP4		LITERAL1
+DP11	LITERAL1
+DP12	LITERAL1
