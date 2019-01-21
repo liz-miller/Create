@@ -1,7 +1,6 @@
-Arduino Library for Learn Robotics Create Robot
+Arduino Library for controlling an Arduino mobile robot with the L298N controller.
 ===========================================
-This library is compatible with the Learn Robotics Create Robot (Presale launches in Spring 2018). 
-Contact me if you'd like to beta test this robot kit.
+This library is compatible with any mobile robot using Arduino and the L298N motor controller.
 
 **You must download the Arduino IDE from the [Arduino website](http://www.arduino.cc/en/main/software) before installing this library.**
 
